@@ -1,0 +1,190 @@
+{
+  "seed": 42,
+  "source_sha256": "228d383bcb6e730f60468738776c0312433482a433e4f20bc1e49febb9adc7bd",
+  "distinct_samples": 1200,
+  "split_counts": {
+    "train": 720,
+    "validation": 240,
+    "test": 240
+  },
+  "selection": "lowest validation cross-entropy, never test accuracy",
+  "official_unlabelled_test_accuracy": "unavailable",
+  "models": {
+    "MyCNN": {
+      "selected_epoch": 3,
+      "validation": {
+        "accuracy": 0.375,
+        "macro_f1": 0.374907547766645,
+        "cross_entropy": 1.5647066831588745,
+        "confusion_matrix": [
+          [
+            15,
+            2,
+            3,
+            4,
+            6,
+            10
+          ],
+          [
+            4,
+            14,
+            10,
+            6,
+            2,
+            3
+          ],
+          [
+            4,
+            4,
+            17,
+            4,
+            5,
+            4
+          ],
+          [
+            2,
+            6,
+            9,
+            17,
+            7,
+            2
+          ],
+          [
+            2,
+            5,
+            4,
+            4,
+            13,
+            10
+          ],
+          [
+            8,
+            5,
+            5,
+            7,
+            3,
+            14
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.37083333333333335,
+        "macro_f1": 0.3712659106494723,
+        "cross_entropy": 1.5266728401184082,
+        "confusion_matrix": [
+          [
+            17,
+            1,
+            0,
+            3,
+            9,
+            10
+          ],
+          [
+            6,
+            17,
+            4,
+            7,
+            4,
+            1
+          ],
+          [
+            8,
+            4,
+            14,
+            7,
+            2,
+            2
+          ],
+          [
+            9,
+            4,
+            11,
+            11,
+            2,
+            5
+          ],
+          [
+            4,
+            4,
+            6,
+            5,
+            13,
+            7
+          ],
+          [
+            7,
+            4,
+            8,
+            3,
+            4,
+            17
+          ]
+        ]
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "validation_cross_entropy": 1.7468708753585815
+        },
+        {
+          "epoch": 2,
+          "validation_cross_entropy": 1.6686973571777344
+        },
+        {
+          "epoch": 3,
+          "validation_cross_entropy": 1.5647066831588745
+        },
+        {
+          "epoch": 4,
+          "validation_cross_entropy": 1.5917668342590332
+        },
+        {
+          "epoch": 5,
+          "validation_cross_entropy": 1.6842373609542847
+        },
+        {
+          "epoch": 6,
+          "validation_cross_entropy": 1.6984412670135498
+        },
+        {
+          "epoch": 7,
+          "validation_cross_entropy": 1.7585386037826538
+        },
+        {
+          "epoch": 8,
+          "validation_cross_entropy": 1.9121367931365967
+        },
+        {
+          "epoch": 9,
+          "validation_cross_entropy": 1.9994289875030518
+        },
+        {
+          "epoch": 10,
+          "validation_cross_entropy": 1.9920529127120972
+        },
+        {
+          "epoch": 11,
+          "validation_cross_entropy": 2.1297435760498047
+        },
+        {
+          "epoch": 12,
+          "validation_cross_entropy": 2.238156318664551
+        },
+        {
+          "epoch": 13,
+          "validation_cross_entropy": 2.3997843265533447
+        },
+        {
+          "epoch": 14,
+          "validation_cross_entropy": 2.2108116149902344
+        },
+        {
+          "epoch": 15,
+          "validation_cross_entropy": 2.306288719177246
+        }
+      ],
+      "checkpoint_reload_identical": true
+    }
+  }
+}

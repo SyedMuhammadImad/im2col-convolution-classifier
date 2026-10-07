@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-07",
+  "title": "CA4 convolution with explicit im2col",
+  "completion_gate_passed": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "c12e024ea0563a22944846ef60bb62c88bd3d13491c5519cdf5cfa1086c661e7",
+      "bytes": 102
+    },
+    {
+      "path": "assignment.ipynb",
+      "sha256": "0629486eb048a308ab324b998833c92414cb6731b64be34b7a2856fe8cdad36b",
+      "bytes": 2969
+    },
+    {
+      "path": "assignment.json",
+      "sha256": "d03367ac36b84e87200fa621bb3c4047a2f0701cd3ed8e8a16a536b90d829740",
+      "bytes": 23
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "6eb9a7f468f323219ff03f569eeadcfd99dadc8190dfc4b701bc7840a4e331ce",
+      "bytes": 595
+    },
+    {
+      "path": "experiment.py",
+      "sha256": "dd46540a532ca652c0e1b3f2323300420dfa60564730a60017d0904c0e5d64b3",
+      "bytes": 87
+    },
+    {
+      "path": "experiment_core.py",
+      "sha256": "6c74b17c1c85c92ad4d713607a5bc0362e60e3d4bd9e2543d118c698840fd8ea",
+      "bytes": 11756
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "b511fbacd6dc7ecdef30b104c56c2dfb0d57312aec8d6dcc8e8df5aebee4d800",
+      "bytes": 3923
+    },
+    {
+      "path": "models.py",
+      "sha256": "eb25e5cba61b17d08309495d61f2ca91fb760bba047fac4dc5da3982b0e653da",
+      "bytes": 5752
+    },
+    {
+      "path": "README.md",
+      "sha256": "4c5bfdac9ebb715759111cc2c305863ee2061925a015f695a3f84790900b3668",
+      "bytes": 3392
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "8a9815ac3ec593524ad6fec33a14238d8e5ce3d655d99fcece764032e6c8b07f",
+      "bytes": 80
+    },
+    {
+      "path": "test_models.py",
+      "sha256": "21caf4e61062fbed060bd5bf6407f89cf18858b54a5586fb0a786d1633cfa7d8",
+      "bytes": 1959
+    },
+    {
+      "path": "test_workflow.py",
+      "sha256": "13e5fd5bfbb58f79c012d1ffdeeeae6c23f87e6ef6826c987e285ef4f020f8a4",
+      "bytes": 2834
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "acef52ad6e5367562eb026a50187f977c9e492e8ce69baf1321f3f211d810579",
+      "bytes": 993
+    }
+  ]
+}

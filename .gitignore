@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.env
+*.npz
+*.pt
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+data/
+outputs/
