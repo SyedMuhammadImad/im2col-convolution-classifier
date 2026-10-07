@@ -1,4 +1,4 @@
-"""Coursework implementation retained from student/assisted source; see ATTRIBUTION.md."""
+"""project implementation retained from author/assisted source; see ATTRIBUTION.md."""
 import math
 import numpy as np
 import torch

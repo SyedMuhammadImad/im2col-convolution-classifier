@@ -1,4 +1,4 @@
-"""Portable train/validation/test workflow; raw coursework data stays local."""
+"""Portable train/validation/test workflow; raw project data stays local."""
 import argparse
 import hashlib
 import json
@@ -174,7 +174,7 @@ def train_experiment(kind, path, output, epochs=None):
 def predict_file(kind, checkpoint_dir, csv, destination):
     folder = Path(checkpoint_dir)
     meta = json.loads((folder/'metadata.json').read_text(encoding='utf-8'))
-    if meta['kind'] != kind: raise ValueError('Checkpoint assignment mismatch')
+    if meta['kind'] != kind: raise ValueError('Checkpoint project mismatch')
     x,_,cols,_ = read_data(csv,kind,labelled=False)
     if cols != meta['columns']: raise ValueError('Feature order mismatch')
     x = (x-np.array(meta['mean']))/np.array(meta['scale'])
@@ -197,7 +197,7 @@ def predict_file(kind, checkpoint_dir, csv, destination):
     return pred
 
 def main(kind):
-    p = argparse.ArgumentParser(description='Completed coursework experiment; private datasets and checkpoints stay local.')
+    p = argparse.ArgumentParser(description='Completed project experiment; private datasets and checkpoints stay local.')
     sub = p.add_subparsers(dest='command',required=True)
     tr = sub.add_parser('train'); tr.add_argument('--train-csv',required=True); tr.add_argument('--output-dir',required=True); tr.add_argument('--epochs',type=int)
     pr = sub.add_parser('predict'); pr.add_argument('--checkpoint-dir',required=True); pr.add_argument('--predict-csv',required=True); pr.add_argument('--output-csv',required=True)

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
-  "project": "ca4-im2col-cnn-classification",
-  "completion_scope": "academic project or finished document; not a production certification",
+  "project": "im2col-convolution-classifier",
+  "completion_scope": "experimental project or finished document; not a production certification",
   "checks": [
     {
       "name": "8 independent algorithm and complete workflow tests passed",
@@ -21,7 +21,7 @@
     }
   ],
   "limitations": [
-    "Fixed-split coursework performance; no official unlabelled test accuracy, production certification or original research claim.",
+    "Fixed-split project performance; no official unlabelled test accuracy, production certification or original research claim.",
     "Raw datasets, predictions, weights and media remain local."
   ]
 }

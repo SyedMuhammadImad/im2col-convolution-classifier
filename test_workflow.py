@@ -7,7 +7,7 @@ import pandas as pd
 import pytest
 from experiment_core import read_data, split_data, train_experiment, predict_file, SPECS
 
-KIND = json.loads((Path(__file__).parent/'assignment.json').read_text())['kind']
+KIND = json.loads((Path(__file__).parent/'project.json').read_text())['kind']
 
 def fixture_csv(path, count=120):
     dimensions,classes,_ = SPECS[KIND]
